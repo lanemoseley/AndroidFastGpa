@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fast GPA</string>
+    <string name="semesterGpa">Semester GPA</string>
+    <string name="dummy">dummy</string>
+    <string name="cumulativeGpa">Cumulative GPA</string>
+    <string name="credits">Credits</string>
+    <string name="grades">Grades</string>
+    <string name="pastCreditHours">Past Credit Hours</string>
+    <string name="pastGpa">Past GPA</string>
+</resources>

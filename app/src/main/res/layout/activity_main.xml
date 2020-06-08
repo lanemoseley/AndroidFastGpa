@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/creditsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/credits"
+        app:layout_constraintEnd_toStartOf="@+id/gradesLabel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cumulativeGpaValue" />
+
+    <TextView
+        android:id="@+id/gradesLabel_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/creditsLabel_1"
+        app:layout_constraintTop_toBottomOf="@+id/gradesLabel_0" />
+
+    <TextView
+        android:id="@+id/gradesLabel_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/creditsLabel_0"
+        app:layout_constraintTop_toBottomOf="@+id/gradesLabel" />
+
+    <TextView
+        android:id="@+id/gradesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/grades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/creditsLabel"
+        app:layout_constraintTop_toBottomOf="@+id/cumulativeGpaValue" />
+
+    <TextView
+        android:id="@+id/creditsLabel_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toStartOf="@+id/gradesLabel_0"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditsLabel" />
+
+    <TextView
+        android:id="@+id/creditsLabel_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toStartOf="@+id/gradesLabel_1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditsLabel_0" />
+
+    <TextView
+        android:id="@+id/creditsLabel_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toStartOf="@+id/gradesLabel_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditsLabel_3" />
+
+    <TextView
+        android:id="@+id/creditsLabel_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toStartOf="@+id/gradesLabel_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditsLabel_1" />
+
+    <TextView
+        android:id="@+id/gradesLabel_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/creditsLabel_3"
+        app:layout_constraintTop_toBottomOf="@+id/gradesLabel_2" />
+
+    <TextView
+        android:id="@+id/creditsLabel_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toStartOf="@+id/gradesLabel_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditsLabel_2" />
+
+    <TextView
+        android:id="@+id/gradesLabel_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/creditsLabel_2"
+        app:layout_constraintTop_toBottomOf="@+id/gradesLabel_1" />
+
+    <TextView
+        android:id="@+id/gradesLabel_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/creditsLabel_4"
+        app:layout_constraintTop_toBottomOf="@+id/gradesLabel_3" />
+
+    <TextView
+        android:id="@+id/pastCreditHoursLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/pastCreditHours"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditsLabel_5" />
+
+    <TextView
+        android:id="@+id/pastGpaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/pastGpa"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+
+    <TextView
+        android:id="@+id/semesterGpaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/semesterGpa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cumulativeGpaValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toEndOf="@+id/cumulativeGpaLabel"
+        app:layout_constraintStart_toStartOf="@+id/cumulativeGpaLabel"
+        app:layout_constraintTop_toBottomOf="@+id/cumulativeGpaLabel" />
+
+    <TextView
+        android:id="@+id/semesterGpaValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toEndOf="@+id/semesterGpaLabel"
+        app:layout_constraintStart_toStartOf="@+id/semesterGpaLabel"
+        app:layout_constraintTop_toBottomOf="@+id/semesterGpaLabel" />
+
+    <TextView
+        android:id="@+id/cumulativeGpaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/cumulativeGpa"
+        app:layout_constraintEnd_toEndOf="@+id/semesterGpaValue"
+        app:layout_constraintStart_toStartOf="@+id/semesterGpaValue"
+        app:layout_constraintTop_toBottomOf="@+id/semesterGpaValue" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/pastCreditHoursLabel"
+        app:layout_constraintStart_toStartOf="@+id/pastCreditHoursLabel"
+        app:layout_constraintTop_toBottomOf="@+id/pastCreditHoursLabel" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/pastGpaLabel"
+        app:layout_constraintStart_toStartOf="@+id/pastGpaLabel"
+        app:layout_constraintTop_toBottomOf="@+id/pastGpaLabel" />
+
+    <TextView
+        android:id="@+id/creditsLabel_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toStartOf="@+id/gradesLabel_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditsLabel_4" />
+
+    <TextView
+        android:id="@+id/gradesLabel_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dummy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/creditsLabel_5"
+        app:layout_constraintTop_toBottomOf="@+id/gradesLabel_4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
